@@ -1090,11 +1090,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 523808915}
     m_Modifications:
-    - target: {fileID: 4539556934229391448, guid: dad99092f1c68c84fa646a57d6beb606,
-        type: 3}
-      propertyPath: m_Name
-      value: Ramp1
-      objectReference: {fileID: 0}
     - target: {fileID: 622876781865699915, guid: dad99092f1c68c84fa646a57d6beb606,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1150,7 +1145,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 4539556934229391448, guid: dad99092f1c68c84fa646a57d6beb606,
+        type: 3}
+      propertyPath: m_Name
+      value: Ramp1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5611014461049680346, guid: dad99092f1c68c84fa646a57d6beb606,
+        type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5611014461049680346, guid: dad99092f1c68c84fa646a57d6beb606, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: dad99092f1c68c84fa646a57d6beb606, type: 3}
 --- !u!1001 &5614716758443283994
 PrefabInstance:
